@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     <div className="container mt-4">
-      <h1 className="mb-4 text-center">Lista kategorii</h1>
+      <h1 className="mb-4 text-center">Wybierz co byś chciał kupić w naszym sklepie </h1>
       <div className="row g-3">
         {categories.map((category) => (
           <div className="col-md-4 col-lg-3" key={category}>

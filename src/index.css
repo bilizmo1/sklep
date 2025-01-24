@@ -23,11 +23,42 @@ a:hover {
 }
 
 body {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b, #86e3ce, #d4fc79);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+  color: white; /* Opcjonalnie, dla kontrastu z tekstem */
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
