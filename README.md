@@ -22,6 +22,10 @@ npm install
 node server.js
 npm run dev
 
+## Autorzy:
+
+Jakub Biłko
+
 
 
 
