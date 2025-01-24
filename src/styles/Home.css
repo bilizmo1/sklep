@@ -1,0 +1,84 @@
+/* Stylizacje dla głównego kontenera */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Nagłówek */
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    border-bottom: 2px solid #4caf50;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Stylizacje dla kart */
+  .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Tytuł kategorii */
+  .card-title {
+    font-size: 1.2rem;
+    color: #4caf50;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Link do produktów */
+  .btn-primary {
+    background-color: #4caf50;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Powrót do strony głównej */
+  .btn-secondary {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #555;
+  }
+  
+  /* Karty: odstępy między elementami */
+  .row.g-3 > [class*="col"] {
+    margin-bottom: 20px;
+  }
+  
+  /* Dostosowanie dla mniejszych ekranów */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .card-title {
+      font-size: 1rem;
+    }
+  
+    .btn-primary, .btn-secondary {
+      font-size: 0.9rem;
+      padding: 10px 15px;
+    }
+  }
+  
