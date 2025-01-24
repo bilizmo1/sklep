@@ -15,12 +15,12 @@ W ramach kursu **"Wstęp do Aplikacji Internetowych"** stworzyłem projekt  skle
 ## 🚀 Jak uruchomić?
 
 Wykonaj następujące komendy w terminalu:
-npm run dev
-git clone https://github.com/bilizmo1/Shop.git
-cd projekt
-npm install
-node server.js
-npm run dev
+- npm run dev
+- git clone https://github.com/bilizmo1/Shop.git
+- cd projekt
+- npm install
+- node server.js
+- npm run dev
 
 ## Autorzy:
 
